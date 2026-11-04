@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to Grace Community Church. Join us for worship, community, and faith.">
+  <title>Grace Community Church</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" id="home">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Grace Community Church home">
+        <span class="brand-mark" aria-hidden="true">G</span>
+        <span>Grace Community</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#ministries">Ministries</a>
+        <a href="#events">Events</a>
+        <a href="#visit">Visit</a>
+        <a class="button button-small" href="#give">Give</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-overlay"></div>
+      <div class="hero-content container">
+        <p class="eyebrow light">You belong here</p>
+        <h1 id="hero-title">A place to grow in faith and community.</h1>
+        <p class="hero-copy">Join us each Sunday as we worship, learn, and serve our city together.</p>
+        <a class="button" href="#visit">Plan your visit</a>
+      </div>
+    </section>
+
+    <section class="service-strip" aria-label="Service times">
+      <div class="container service-strip-inner">
+        <div>
+          <span class="service-label">Sundays</span>
+          <strong>9:00 &amp; 11:00 AM</strong>
+        </div>
+        <div>
+          <span class="service-label">Location</span>
+          <strong>123 Faith Avenue</strong>
+        </div>
+        <a href="#visit">Get directions <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container about-grid">
+        <div class="about-image-wrap">
+          <img src="https://images.unsplash.com/photo-1504052434569-70ad5836ab65?auto=format&fit=crop&w=1200&q=85" alt="People gathering together in church" class="about-image">
+        </div>
+        <div class="about-copy">
+          <p class="eyebrow">Welcome to Grace</p>
+          <h2>Faith that grows through connection.</h2>
+          <p>Grace Community is a family of people learning to follow Jesus and love our neighbors. Whatever your story, there is a place for you here.</p>
+          <a class="text-link" href="#visit">Discover our church <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section ministries" id="ministries">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Life together</p>
+            <h2>Find your people.</h2>
+          </div>
+          <p>There is a community for every age and season of life.</p>
+        </div>
+
+        <div class="ministry-grid">
+          <article class="ministry-card">
+            <span class="card-number">01</span>
+            <h3>Children</h3>
+            <p>Safe, joyful spaces where kids can discover God's love.</p>
+          </article>
+          <article class="ministry-card">
+            <span class="card-number">02</span>
+            <h3>Students</h3>
+            <p>A welcoming community for teens to grow and belong.</p>
+          </article>
+          <article class="ministry-card">
+            <span class="card-number">03</span>
+            <h3>Groups</h3>
+            <p>Small groups that help you build meaningful friendships.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section events" id="events">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">What's happening</p>
+            <h2>Upcoming events.</h2>
+          </div>
+        </div>
+
+        <div class="event-list">
+          <article class="event-row">
+            <time datetime="2026-11-08"><strong>08</strong><span>NOV</span></time>
+            <div><p class="event-type">Community</p><h3>Welcome Lunch</h3></div>
+            <p class="event-detail">12:30 PM · Fellowship Hall</p>
+            <a href="#" aria-label="Learn more about Welcome Lunch">→</a>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-11-14"><strong>14</strong><span>NOV</span></time>
+            <div><p class="event-type">Serve</p><h3>City Food Drive</h3></div>
+            <p class="event-detail">9:00 AM · Church Entrance</p>
+            <a href="#" aria-label="Learn more about City Food Drive">→</a>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-11-20"><strong>20</strong><span>NOV</span></time>
+            <div><p class="event-type">Prayer</p><h3>Night of Worship</h3></div>
+            <p class="event-detail">7:00 PM · Sanctuary</p>
+            <a href="#" aria-label="Learn more about Night of Worship">→</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="visit" id="visit">
+      <div class="visit-content container">
+        <p class="eyebrow light">Join us this Sunday</p>
+        <h2>Your first step starts here.</h2>
+        <p>We would love to welcome you in person. Come as you are, and expect a warm welcome and a hopeful message.</p>
+        <div class="visit-actions">
+          <a class="button" href="mailto:hello@gracecommunity.org">Contact us</a>
+          <a class="button button-outline" href="https://maps.google.com/?q=123+Faith+Avenue" target="_blank" rel="noopener">Get directions</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="give" id="give">
+      <div class="container give-inner">
+        <p class="eyebrow">Generosity</p>
+        <h2>Partner with the work God is doing.</h2>
+        <p>Your generosity helps people encounter Jesus and serves our community.</p>
+        <a class="button button-dark" href="mailto:give@gracecommunity.org">Give now</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="#home"><span class="brand-mark" aria-hidden="true">G</span><span>Grace Community</span></a>
+        <p>Faith. Family. Community.</p>
+      </div>
+      <div>
+        <h3>Visit</h3>
+        <p>123 Faith Avenue<br>Your City, ST 12345</p>
+      </div>
+      <div>
+        <h3>Connect</h3>
+        <a href="mailto:hello@gracecommunity.org">hello@gracecommunity.org</a>
+        <a href="tel:+15550123456">(555) 012-3456</a>
+      </div>
+      <div>
+        <h3>Follow</h3>
+        <div class="social-links"><a href="#">Instagram</a><a href="#">Facebook</a></div>
+      </div>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> Grace Community Church</span></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
